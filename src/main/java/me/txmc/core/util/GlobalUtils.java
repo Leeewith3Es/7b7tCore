@@ -100,14 +100,14 @@ public class GlobalUtils {
     public static void sendLocalizedMessage(Player player, String key, boolean prefix, Object... args) {
         Localization loc = Localization.getLocalization(player.locale().getLanguage());
         String msg = String.format(loc.get(key), args);
-        if (prefix) msg = PREFIX.concat(" &r&7>>&r ").concat(msg);
+        if (prefix) msg = PREFIX.concat(" &r&7&r ").concat(msg);
         player.sendMessage(translateChars(msg));
     }
 
     public static void sendLocalizedAmpersandMessage(Player player, String key, boolean prefix, Object... args) {
         Localization loc = Localization.getLocalization(player.locale().getLanguage());
         String msg = String.format(loc.get(key), args);
-        if (prefix) msg = PREFIX.concat(" &r&7>>&r ").concat(msg);
+        if (prefix) msg = PREFIX.concat(" &r&7&r ").concat(msg);
         player.sendMessage(translateChars(msg));
     }
     @SuppressWarnings("ConstantConditions")

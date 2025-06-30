@@ -37,18 +37,7 @@ public class Localization {
                 }
             }
         }
-
-        GlobalUtils.unpackResource("localization/ar.yml", new File(localeDir, "ar.yml"));
         GlobalUtils.unpackResource("localization/en.yml", new File(localeDir, "en.yml"));
-        GlobalUtils.unpackResource("localization/es.yml", new File(localeDir, "es.yml"));
-        GlobalUtils.unpackResource("localization/fr.yml", new File(localeDir, "fr.yml"));
-        GlobalUtils.unpackResource("localization/hi.yml", new File(localeDir, "hi.yml"));
-        GlobalUtils.unpackResource("localization/it.yml", new File(localeDir, "it.yml"));
-        GlobalUtils.unpackResource("localization/jp.yml", new File(localeDir, "jp.yml"));
-        GlobalUtils.unpackResource("localization/pt.yml", new File(localeDir, "pt.yml"));
-        GlobalUtils.unpackResource("localization/ru.yml", new File(localeDir, "ru.yml"));
-        GlobalUtils.unpackResource("localization/tr.yml", new File(localeDir, "tr.yml"));
-        GlobalUtils.unpackResource("localization/zh.yml", new File(localeDir, "zh.yml"));
 
         File[] ymlFiles = localeDir.listFiles(f -> f.getName().endsWith(".yml"));
         if (ymlFiles != null) {
@@ -67,7 +56,7 @@ public class Localization {
     }
 
     public String getPrefix() {
-        return config.getString("prefix", "&8[&98b&78t&8]");
+        return config.getString("prefix", "&c&l&o7b&4&l&o7t");
     }
     public String getColorPrimary() { return config.getString("PluginColors.color_primary", "&9"); }         //&6 GOLD
     public String getColorSecondary() { return config.getString("PluginColors.color_secondary", "&8"); }     //&3 DARK AQUA

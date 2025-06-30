@@ -46,16 +46,16 @@ bookban_removed_item: "&cRemoved all&r&3 %s(s) &r&cfrom your inventory to preven
 kick_lever_ratelimit: "&cYou are interacting too fast"
 kick_pps_limit: "&cYou are sending packets too fast!"
 kick_failed_to_inject: "&cFailed to inject"
-join_message: "&a▲&8 Player &7%s&r&8 Joined."
-first_join_message: "&a▲&8 Player &7%s&r&8 Joined for the first time."
-leave_message: "&c▼&8 Player &7%s&r&8 Left."
+join_message: "&a▲&7 Player &7%s&r&7 Joined."
+first_join_message: "&a▲&7 Player &7%s&r&7 Joined for the first time."
+leave_message: "&c▼&7 Player &7%s&r&7 Left."
 kick_message: "&7%s was kicked for \"%s\""
 could_not_translate_message: "Failed to translate message due to %s"
 message_auto_translated: "This message has been translated automatically.\n\nOriginal Text: %s"
-welcome_message: "&3Welcome to 8b8t"
-vote_announcement: "&c%s &8voted for %prefix% &8and was given free /nc 2 extra render distance and 5 extra homes"
-vote_thanks: "&8Thanks for voting for %prefix% &8you have been given free /nc 2 extra render distance and 5 extra homes"
-vote_info: "&8You can vote for %prefix% &8at &chttps://votefor.8b8t.me"
+welcome_message: "&3Welcome to 7b7t"
+vote_announcement: "&c%s &7voted for % &7and was given free /nc 2 extra render distance and 5 extra homes"
+vote_thanks: "&7Thanks for voting for %prefix% &7you have been given free /nc 2 extra render distance and 5 extra homes"
+vote_info: "&c&l&o7b&4&l&o7t now runs on folia"
 tpa_syntax: "&cPlease include a player to tpa to. /tpa <player>"
 tpa_player_not_online: "&cPlayer %s is not online"
 tpa_no_request_found: "&cNo TPA request found"
@@ -90,7 +90,7 @@ repair_no_item: "&cYou must have an item to repair in hand."
 repair_not_repairable: "&cThis item is not repairable."
 repair_all_success: "&3All items in your inventory were successfully repaired!"
 nick_success: "&3Done! Your nickname is now &3%s&r&3."
-nick_no_permission: "&cThis command is exclusive for DONOR5 &3https://donate.8b8t.me/&c."
+nick_no_permission: "&cThis command is exclusive for DONOR5 &3https://donate.7b7t.net/&c."
 nick_no_name_provided: "&cYou must enter a nickname &3/nick <nickname>&c."
 nick_user_protection: "&cThe nickname must be the same as your username &3/nick <nickname>&c."
 nc_success: "&3Done! Your nickname is now &3%s&r&3."
@@ -98,13 +98,13 @@ nc_no_permission: "&cYou must have voted to use this command."
 nc_invalid_color: "&cYou can only use the styles from the list &3/nc <color> <styles...>&c."
 nc_usage: "&cYou must enter at least the color &3/nc <color> <styles...>&c."
 ic_success: "&3Done! Your item is now named &3%s&r&3."
-ic_no_permission: "&cThis command is exclusive for DONOR4 &3https://donate.8b8t.me/&c."
+ic_no_permission: "&cThis command is exclusive for DONOR4 &3https://donate.7b7t.net/&c."
 ic_invalid_color: "&cYou can only use the styles from the list &3/ic <color> <styles...>&c."
 ic_invalid_item: "&cThis item is not valid."
 ic_no_item: "&cYou must have an item in your hand to change its color."
 ic_usage: "&cYou must enter at least the color &3/ic <color> <styles...>&c."
 rename_success: "&3Done! Your item is now named &3%s&r&3."
-rename_no_permission: "&cThis command is exclusive for DONOR5 &3https://donate.8b8t.me/&c."
+rename_no_permission: "&cThis command is exclusive for DONOR5 &3https://donate.7b7t.net/&c."
 rename_invalid_item: "&cThis item is not valid."
 rename_no_item: "&cYou must have an item in your hand to change its color."
 rename_no_name_provided: "&cYou must enter a name &3/rename <item name>&c."
@@ -126,87 +126,84 @@ repair_fail_while_pvp: "&cYou cannot use this command during or shortly after Pv
 sign_success: "&3Done! You successfully signed the item."
 sign_fail_already_signed: "&cThis item is already signed."
 sign_fail_no_item: "&cYou must hold an item in your hand to sign it."
-show_join_leave_messages_false: "&8Join/Leave messages are now &chidden&8. To show them again, use this command."
-show_join_leave_messages_true: "&8Join/Leave messages are now &ashown&8."
+show_join_leave_messages_false: "&7Join/Leave messages are now &chidden&7. To show them again, use this command."
+show_join_leave_messages_true: "&7Join/Leave messages are now &ashown&7."
 mapart_deleted_inventory: "&cA prohibited mapart has been removed from your inventory. If you are caught again with this type of material, you will be banned from the server."
 mapart_deleted_frame: "&cA prohibited mapart has been removed from your base. If you are caught again with this type of material, you will be banned from the server."
 spam_alert: "&cPlease do not spam."
-vanish_true: "&8You are now in &3vanish mode&8. To exit, use the /vanish command again."
-vanish_false: "&8You are now &3visible &8to other players."
+vanish_true: "&7You are now in &3vanish mode&7. To exit, use the /vanish command again."
+vanish_false: "&7You are now &3visible &7to other players."
 table_usage: "&cYou must specify a table type &3/table <type>&c."
 table_invalid_type: "&cInvalid table type. Use tab-complete to see valid options &3/table <type>&c."
 
 #Complex messages
 HelpMessage:
   - '&1--------------------------------------'
-  - '&8Visit &chttps://www.8b8t.me/terms &8to read the rules'
+  - '&7Visit &chttps://www.7b7t.net/terms &7to read the rules'
   - '&1--------------Commands----------------'
-  - '&c/tpa &8to teleport to another player'
-  - '&c/tpahere &8to teleport a player to your location'
-  - '&c/tpayes &8to accept a teleport request'
-  - '&c/tpano &8to deny a teleport request'
-  - '&c/tpacancel &8to cancel sent tpa requests'
-  - '&c/back &8to return to your last location'
-  - '&c/hotspot &8teleport to a hotspot or create a new one'
-  - '&c/sethome &8to set a home at your location'
-  - '&c/delhome &8to delete a home you set'
-  - '&c/home &8to teleport to a set home'
-  - '&c/skin set &8to set your skin'
-  - '&c/vote &8to vote for 8b8t'
-  - '&c/discord &8to get a 8b8t Discord invite'
-  - '&c/matrix &8to get the link to the 8b8t Matrix room'
-  - '&c/kill &8to commit suicide'
-  - '&c/ignore &8to ignore other players'
-  - '&c/unignore &8to unignore other players'
-  - '&c/ignorelist &8to show the players you are ignoring'
-  - '&c/msg &8to send messages to other players'
-  - '&c/changepass &8to change your password'
-  - '&c/joindate &8to see your and others join date'
-  - '&c/worldstats &8to see the world size'
-  - '&c/pvp &8to connect to the 8b8t PVP server'
-  - '&c/lobby &8to connect to the lobby'
-  - '&c/tpsinfo &8to check the server ticks per second'
+  - '&c/tpa &7to teleport to another player'
+  - '&c/tpahere &7to teleport a player to your location'
+  - '&c/tpayes &7to accept a teleport request'
+  - '&c/tpano &7to deny a teleport request'
+  - '&c/tpacancel &7to cancel sent tpa requests'
+  - '&c/back &7to return to your last location'
+  - '&c/hotspot &7teleport to a hotspot or create a new one'
+  - '&c/sethome &7to set a home at your location'
+  - '&c/delhome &7to delete a home you set'
+  - '&c/home &7to teleport to a set home'
+  - '&c/skin set &7to set your skin'
+  - '&c/vote &7to vote for 8b8t'
+  - '&c/discord &7to get a 8b8t Discord invite'
+  - '&c/matrix &7to get the link to the 8b8t Matrix room'
+  - '&c/kill &7to commit suicide'
+  - '&c/ignore &7to ignore other players'
+  - '&c/unignore &7to unignore other players'
+  - '&c/ignorelist &7to show the players you are ignoring'
+  - '&c/msg &7to send messages to other players'
+  - '&c/changepass &7to change your password'
+  - '&c/joindate &7to see your and others join date'
+  - '&c/worldstats &7to see the world size'
+  - '&c/pvp &7to connect to the 8b8t PVP server'
+  - '&c/lobby &7to connect to the lobby'
+  - '&c/tpsinfo &7to check the server ticks per second'
   - '&1-------------Voters Only---------------'
-  - '&c/nc &8to set the name color'
-  - '&8Visit &chttps://votefor.8b8t.me &8to vote'
+  - '&c/nc &7to set the name color'
+  - '&7Visit &chttps://votefor.7b7t.net &7to vote'
   - '&1------------Donors Only--------------'
-  - '&c/ic &8to set the item color'
-  - '&c/rename &8to rename an item'
-  - '&c/seen &8to see when a player last logged in'
-  - '&c/echest &8to open your ender chest'
-  - '&c/nick &8to set a nickname'
-  - '&8Visit &chttps://donate.8b8t.me &8to donate'
+  - '&c/ic &7to set the item color'
+  - '&c/rename &7to rename an item'
+  - '&c/seen &7to see when a player last logged in'
+  - '&c/echest &7to open your ender chest'
+  - '&c/nick &7to set a nickname'
+  - '&7Visit &chttps://donate.7b7t.net &7to donate'
   - '&1--------------------------------------'
-  -
 TabList:
   Header:
     - ''
-    - '&9&l8builders&7&l8tools'
+    - '&c&l&o7builders&4&l&o7tools&r'
     - ''
-    - '&r&c&oEnjoying 8b8t.me ? Consider donating at https://donate.8b8t.me'
+    - '&r&e&lThe backup of 7b7t is 1 month old. Sorry to anyone that lost progress'
+    - '&r&e&lbecause of this. We Enabled frame dupe for compensation. (100% dupe rate).'
     - ''
 
   Footer:
     - ''
     - '&7tps:&r %tps% &7ping: &r%ping% &7players: &f%players% &7uptime: &r%uptime%'
     - ''
-    - '&7Contact: contact@8b8t.me'
-    - '&7Discussion: https://matrix.8b8t.me'
-    - '&7Website: https://www.8b8t.me'
-    - '&7These are the only official 8b8t websites and contacts'
+    - '&8&lContacts: &r'
+    - '&77b7t.net@gmail.com'
+    - '&7https://reddit.com/r/7b7tnet'
+    - '&7https://discord.7b7t.me'
     - ''
 TpsMessage:
   - '&1------------TPS Information------------'
-  - '&8TPS: &a%s &8MSTP: &a%s'
-  - '&8Lowest Region TPS: &c%s'
-  - '&8Online Players &a%s'
+  - '&7TPS: &a%s &7MSTP: &a%s'
+  - '&7Lowest Region TPS: &c%s'
+  - '&7Online Players &a%s'
   - '&1-------------------------------------'
 tps_failed: '&cYou are not allowed to check TPS'
-
 announcements:
-  - "%prefix% &7>>&r&8 Visit <red><hover:show_text:'<gray>Click to open the link'><click:open_url:'https://votefor.8b8t.me'>https://votefor.8b8t.me</click></hover></red> <dark_gray>and vote to receive 2 additional render distances and 5 extra homes for free</dark_gray>"
-  - "%prefix% &7>>&r&8 Donate to support 8b8t at <red><hover:show_text:'<gray>Click to open the link'><click:open_url:'https://donate.8b8t.me'>https://donate.8b8t.me</click></hover></red>"
-
+  - "&c&l&o7b&4&l&o7t &7Now running folia"
 # Death messages
 global-pvp-death-messages:
   - "&3%victim%&r&4 has been killed by &3%killer%&r&4"
@@ -482,8 +479,8 @@ dolphin-messages:
   - "&3%victim%&r&4 hit a &bDolphin &4and they retaliated"
 
 panda-messages:
-  - "&3%victim%&r&4 was made into a &8Pandas &4dinner"
-  - "&3%victim%&r&4 tried stealing a &8Pandas &4bamboo"
+  - "&3%victim%&r&4 was made into a &7Pandas &4dinner"
+  - "&3%victim%&r&4 tried stealing a &7Pandas &4bamboo"
 
 piglin-messages:
   - "&3%victim%&r&4 met his maker against the new &6Piglins"
