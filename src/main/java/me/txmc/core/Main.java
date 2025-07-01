@@ -81,13 +81,13 @@ public class Main extends JavaPlugin {
         register(new TabSection(this));
         register(new ChatSection(this));
         register(new TPASection(this));
-        //register(new HomeManager(this));
+        register(new HomeManager(this));
         register(new CommandSection(this));
         register(new PatchSection(this));
         register(new DupeSection(this));
         register(new DeathMessageListener());
         register(new CustomExperienceJoinLeave(this));
-        //register(new OpWhiteListListener(this));
+        register(new OpWhiteListListener(this));
 
         if(getConfig().getBoolean("AntiIllegal.Enabled", true)) register(new AntiIllegalMain(this));
         if (getServer().getPluginManager().getPlugin("VotifierPlus") != null) register(new VoteSection(this));

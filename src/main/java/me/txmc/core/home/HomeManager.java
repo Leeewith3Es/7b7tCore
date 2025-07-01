@@ -37,10 +37,6 @@ public class HomeManager implements Section {
         config = plugin.getSectionConfig(this);
         if (!Bukkit.getOnlinePlayers().isEmpty()) Bukkit.getOnlinePlayers().forEach(p -> homes.put(p, storage.load(p)));
         plugin.register(new JoinListener(this));
-        plugin.getCommand("home").setExecutor(new HomeCommand(this));
-        plugin.getCommand("sethome").setExecutor(new SetHomeCommand(this));
-        plugin.getCommand("delhome").setExecutor(new DelHomeCommand(this));
-        plugin.getCommand("back").setExecutor(new BackCommand(this));
         plugin.getCommand("hotspot").setExecutor(new HotspotCommand(this));
     }
 
